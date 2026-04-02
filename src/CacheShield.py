@@ -207,6 +207,9 @@ def create_gui():
     tk.Button(button_frame, text="Export API List", command=export_api_list, **button_style).grid(row=0, column=5, padx=10)
     tk.Button(button_frame, text="Import API List", command=import_api_list, **button_style).grid(row=0, column=6, padx=10)
 
+
+    # sonar trigger
+
     window.mainloop()
 
 if __name__ == "__main__":
